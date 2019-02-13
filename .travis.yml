@@ -2,7 +2,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t monkalways/docker-react -f Dockerfile .
+  - docker build -t monkalways/docker-react -f Dockerfile.dev .
 
 scripts:
   - docker run monkalways/docker-react npm test -- --coverage
