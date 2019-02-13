@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# Whitelist
+!src/
+!public/
+!package-lock.json
+!package.json
